@@ -13,7 +13,7 @@ int main()
 
 	if (a % 4 != 0)
 		printf("This year is ordinary \n");
-	else if (a % 100 == 0 & a % 400 != 0)
+	else if (a % 100 == 0 && a % 400 != 0)
 		printf("This year is ordinary \n");
 	else
 		printf("This year is leap-year! \n");
