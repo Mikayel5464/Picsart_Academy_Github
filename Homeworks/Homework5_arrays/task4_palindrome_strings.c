@@ -15,9 +15,7 @@ int main()
 		scanf("%c", &str[i]);
 	}
 
-
 	int length = sizeof(str) / sizeof(char);
-
 
 	for (int i = 0; i < length; ++i)
 	{
