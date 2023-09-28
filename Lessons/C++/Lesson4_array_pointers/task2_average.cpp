@@ -14,14 +14,15 @@ int main()
 	}
 
 	int sum = 0;
-	int avg = 0;
+	float avg = 0;
 
 	for (int i = 0; i < size; ++i)
 	{
 		sum += *(ptr + i);
+		avg = static_cast<float>(sum) / size;
 	}
 
-	std::cout << "The average of elements of array = " << sum / size << std::endl;
+	std::cout << "The average of elements of array = " << avg << std::endl;
 
 	return 0;
 }
